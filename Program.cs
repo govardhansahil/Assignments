@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,15 +10,15 @@ namespace SumOfN
     {
         static void Main(string[] args)
         {
-            int x, y;
+            long x, y;
 
             Console.WriteLine("Enter first number:");
 
-            x = Convert.ToInt32(Console.ReadLine());
+            x = Convert.ToInt64(Console.ReadLine());
 
             Console.WriteLine("Enter second number:");
 
-            y = Convert.ToInt32(Console.ReadLine());
+            y = Convert.ToInt64(Console.ReadLine());
 
             Console.WriteLine("Sum of " + x + " and " + y + " is " + (x + y));
 
